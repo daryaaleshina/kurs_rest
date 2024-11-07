@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block modal_cart %}
+{% include "includes/cart_button.html" %}
+{% endblock  %}
+
+{% block content %}
+    <h1 class="mt-5 pt-5" style="font-size: 60px; color: black;"><strong>{{ content }}</strong></h1>
+{% endblock  %}

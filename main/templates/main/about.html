@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block modal_cart %}
+{% include "includes/cart_button.html" %}
+{% endblock  %}
+
+{% block content %}
+    <div class="mt-5 pt-5 bg-white custom-shadow rounded">
+        <h2 class="m-2" style="text-align: center;"><strong>Контактная информация ресторана Luxury</strong></h2>
+        <div class="m-2 ">
+            <br><p>Если по какой-то причине Вы не можете оформить доставку через сайт, то вот как с нами можно связаться: </p>
+            <p><strong>Адрес:</strong></p>
+            <p>г. Санкт-Петербург, ул. Ленина, д. 1 </p>
+            <p><strong>Часы работы:</strong></p>
+            <p>Пн–Пт: 11:00 – 23:00 <br>Сб–Вс: 10:00 – 00:00</p>
+            <p><strong>Телефон для бронирования:</strong></p>
+            <p>+7 (999) 999-99-99</p>
+            <p><strong>Электронная почта:</strong></p>
+            <p>info@luxuryrestaurant.ru</p><br>
+        </div>
+    </div>
+{% endblock %}
